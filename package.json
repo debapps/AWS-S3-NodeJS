@@ -1,0 +1,16 @@
+{
+  "name": "awss3nodejs",
+  "version": "1.0.0",
+  "description": "This is Node JS program to handle AWS S3 buckets.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Debaditya Bhar",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.259.0",
+    "@aws-sdk/s3-request-presigner": "^3.264.0",
+    "jimp": "^0.16.2"
+  }
+}
